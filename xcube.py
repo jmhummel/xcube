@@ -16,13 +16,19 @@ __email__      = "jmhummel@gmail.com"
 __status__     = "Prototype"
 __date__       = "2016-01-14"
 
-colors = ['red',
-          'orange',
-          'yellow',
-          'green',
-          'blue',
-          'white']
+colors = {1: 'red',
+          2: 'orange',
+          3: 'yellow',
+          4: 'green',
+          5: 'blue',
+          6: 'white'}
 
 class XCube():
 	def __init__(self):
 		self.state = []
+
+def main():
+	cube = XCube()
+
+if __name__ == '__main__':
+    main()
